@@ -33,16 +33,14 @@
         <WarningLevel>4</WarningLevel>
     </PropertyGroup>
     <ItemGroup>
-        <Reference Include="GreyMagic, Version=1.0.60.0, Culture=neutral, PublicKeyToken=260525fa2b0e778a">
+        <Reference Include="GreyMagic">
           <HintPath>..\..\GreyMagic.dll</HintPath>
         </Reference>
         <Reference Include="PresentationCore" />
-        <Reference Include="RebornBuddy, Version=1.0.439.0, Culture=neutral, PublicKeyToken=48d7174f8a943034">
+        <Reference Include="RebornBuddy">
           <HintPath>..\..\RebornBuddy.exe</HintPath>
         </Reference>
-        <Reference Include="RecastManaged, Version=1.0.6621.35540, Culture=neutral, PublicKeyToken=0073c1976f21909c">
-          <HintPath>RecastManaged.dll</HintPath>
-        </Reference>
+
         <Reference Include="System" />
         <Reference Include="System.Core" />
         <Reference Include="System.Data" />
