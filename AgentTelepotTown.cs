@@ -44,6 +44,8 @@ namespace NavigationTest
 
         public bool TeleportToIndex(int index)
         {
+            if (index == CurrentLocation) return true;
+            
             lock (Core.Memory.Executor.AssemblyLock)
             {
                 return Core.Memory.CallInjected64<uint>(
