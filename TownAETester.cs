@@ -23,7 +23,7 @@ using TreeSharp;
 
 namespace NavigationTest
 {
-    public class Class1 : BotBase
+    public class TownAETester : BotBase
     {
         private static readonly LLogger Log = new LLogger("TownAE", Colors.Pink);
 
