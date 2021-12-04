@@ -50,6 +50,8 @@
     </ItemGroup>
     <ItemGroup>
         <Compile Include="AgentTelepotTown.cs" />
+        <Compile Include="GatheringFlag.cs" />
+        <Compile Include="GatheringStruct.cs" />
         <Compile Include="TownAETester.cs" />
         <Compile Include="Properties\AssemblyInfo.cs" />
         <Compile Include="TelepotTown.cs" />
