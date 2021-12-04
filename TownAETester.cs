@@ -38,8 +38,6 @@ namespace NavigationTest
         public override Composite Root => _root;
 
         public override bool WantButton { get; } = true;
-        
-        private static MethodInfo Method;
 
         public TownAETester()
         {
@@ -78,6 +76,7 @@ namespace NavigationTest
                 
                 Log.Information($"Current Location: {aes[AgentTelepotTown.Instance.CurrentLocation].ToString()}");
 
+                //Test Teleport to The Rostra in old sharlayan
                 var result = AgentTelepotTown.Instance.TeleportByAetheryteId(186);
                 
                 Log.Information($"Result {result}");
