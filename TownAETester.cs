@@ -41,7 +41,7 @@ namespace NavigationTest
         
         private static MethodInfo Method;
 
-        public Class1()
+        public TownAETester()
         {
             OffsetManager.Init();
             OffsetManager.SetOffsetClassesAndAgents();
